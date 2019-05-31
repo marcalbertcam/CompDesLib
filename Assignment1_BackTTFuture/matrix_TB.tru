@@ -1,0 +1,21 @@
+!Compilers and Development of Libraries
+!Assignment-1
+!Simple code in BASIC
+!Read 9 numbers from a file which represent a 3x3 matrix
+!Multiply the read matrix by itself and print the result
+!Alejandra Victoria
+!Marcos Camarena
+!May.2019
+
+
+DIM a(3,3), product(3,3)
+MAT READ a
+DATA 1, 2, 3, 4, 5, 6, 7, 8, 9
+MAT product = a * a
+PRINT "3x3 Input Matrix"
+MAT PRINT a
+PRINT "Result of multiply the Input Matrix by itself"
+MAT PRINT product
+
+END
+
