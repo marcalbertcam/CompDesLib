@@ -1,1 +1,1 @@
-# CompDesLib
+Course: Compilers and Development of Libraries 
